@@ -1,0 +1,16 @@
+
+--- 2026-06-11T09:54:39.284Z debug
+🪵  Writing logs to "C:\Users\Administrator\Documents\羊毛社群做大做强\work\活码网址\.wrangler-config\.wrangler\logs\wrangler-2026-06-11_09-54-39_135.log"
+---
+
+--- 2026-06-11T09:54:39.284Z debug
+.env file not found at "C:\Users\Administrator\Documents\羊毛社群做大做强\work\活码网址\.env". Continuing... For more details, refer to https://developers.cloudflare.com/workers/wrangler/system-environment-variables/
+---
+
+--- 2026-06-11T09:54:39.285Z debug
+.env file not found at "C:\Users\Administrator\Documents\羊毛社群做大做强\work\活码网址\.env.local". Continuing... For more details, refer to https://developers.cloudflare.com/workers/wrangler/system-environment-variables/
+---
+
+--- 2026-06-11T09:54:39.286Z log
+4.99.0
+---

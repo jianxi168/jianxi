@@ -1,0 +1,6 @@
+{
+  "devDependencies": {
+    "@zeabur/cli": "^0.2.9",
+    "wrangler": "^4.99.0"
+  }
+}
