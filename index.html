@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>活码页面</title>
+    <title>经久不息欢迎您的加入！</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
@@ -67,47 +67,32 @@
 
         <!-- 顶部文字编辑区 -->
         <div class="top-text-card fade-in fade-in-d1">
-            <div class="placeholder narrow">
-                <p>此处放置顶部文字内容</p>
-                <p style="margin-top:8px; font-size:12px; opacity:0.7;">修改 config.json 中的 topText 字段即可</p>
-            </div>
+            <p>欢迎加入我们的社群，一起交流学习！</p>
         </div>
 
         <!-- 二维码 -->
         <div class="qr-card fade-in fade-in-d2">
             <p class="qr-label">社群二维码</p>
-            <div class="placeholder">
-                <p>此处放置二维码图片</p>
-                <p style="margin-top:8px; font-size:12px; opacity:0.7;">将图片命名为 qrcode.jpg 放入 images 文件夹</p>
-            </div>
+            <img class="qr-img" src="images/qrcode.jpg" alt="社群二维码" onerror="this.style.display='none';this.parentNode.innerHTML+='<p style=\x27color:#aaa;font-size:14px;\x27>二维码待上传</p>'">
             <p class="qr-tip">长按或扫描二维码</p>
         </div>
 
         <!-- 展示图片 1 -->
         <div class="images-section fade-in fade-in-d3">
-            <div class="placeholder narrow">
-                <p>展示图片 1</p>
-                <p style="margin-top:8px; font-size:12px; opacity:0.7;">将图片命名为 banner1.jpg 放入 images 文件夹</p>
-            </div>
+            <img src="images/banner1.jpg" alt="展示图片1">
         </div>
 
         <!-- 展示图片 2 -->
         <div class="images-section fade-in fade-in-d4" style="margin-top:12px;">
-            <div class="placeholder narrow">
-                <p>展示图片 2</p>
-                <p style="margin-top:8px; font-size:12px; opacity:0.7;">将图片命名为 banner2.jpg 放入 images 文件夹</p>
-            </div>
+            <img src="images/banner2.jpg" alt="展示图片2">
         </div>
 
         <!-- 展示图片 3 -->
         <div class="images-section fade-in fade-in-d5" style="margin-top:12px;">
-            <div class="placeholder narrow">
-                <p>展示图片 3</p>
-                <p style="margin-top:8px; font-size:12px; opacity:0.7;">将图片命名为 banner3.jpg 放入 images 文件夹</p>
-            </div>
+            <img src="images/banner3.jpg" alt="展示图片3">
         </div>
 
-        <div class="footer">如有问题请联系管理员</div>
+        <div class="footer">经久不息群友反馈</div>
     </div>
 </body>
 </html>
