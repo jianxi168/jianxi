@@ -1,0 +1,11 @@
+﻿{
+    "title": "扫码加入社群",
+    "subtitle": "长按识别二维码，即可加入",
+    "qrLabel": "社群二维码",
+    "qrCode": "images/qrcode.jpg",
+    "images": [
+        "images/banner1.jpg",
+        "images/banner2.jpg"
+    ],
+    "footer": "如有问题请联系管理员"
+}
