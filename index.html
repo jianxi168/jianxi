@@ -80,11 +80,11 @@
             border-radius: 12px;
             overflow: hidden;
             cursor: zoom-in;
+            aspect-ratio: 1;
         }
         .banner-grid .img-wrap img {
             width: 100%;
-            height: auto;
-            max-height: 150px;
+            height: 100%;
             object-fit: cover;
             border-radius: 12px;
             border: 3px solid rgba(255,255,255,0.3);
@@ -105,12 +105,7 @@
             font-size: 12px;
             padding: 6px 0;
             text-align: center;
-            opacity: 0;
-            transition: opacity 0.2s;
             border-radius: 0 0 12px 12px;
-        }
-        .banner-grid .img-wrap:hover .zoom-hint {
-            opacity: 1;
         }
         .banner-grid .full-width {
             /* kept for compatibility */
