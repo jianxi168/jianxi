@@ -1,6 +1,4 @@
-@
 node_modules/
-.wrangler-config/
-.npmrc
-package-lock.json
-package.json
+*.log
+.DS_Store
+Thumbs.db
