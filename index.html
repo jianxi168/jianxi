@@ -210,7 +210,7 @@
     </div>
 
     <script>
-        document.querySelectorAll('img').forEach(img => {
+        document.querySelectorAll('.banner-grid img').forEach(img => {
             img.style.cursor = 'zoom-in';
             img.addEventListener('click', function() {
                 document.getElementById('modalImg').src = this.src;
@@ -218,7 +218,7 @@
             });
         });
         document.getElementById('imgModal').addEventListener('click', function(e) {
-            if (e.target === this) closeModal();
+            closeModal();
         });
         function closeModal() {
             document.getElementById('imgModal').classList.remove('active');
